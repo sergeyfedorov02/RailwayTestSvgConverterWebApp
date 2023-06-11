@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CreateDate="2017-02-03T11:41:48.393" ModifyDate="2018-10-24T16:35:04.093" xmlns="http://tempuri.org/ProjectExtensions.xsd">
+  <ObjectsRelations />
+  <Hosts>
+    <Host Id="279" ArchiveOption="2">
+      <VirtualHosts Id="267" Name="Данилов" StationId="31110">
+        <DeviceExtension Id="1164" />
+        <DeviceExtension Id="1165" />
+        <DeviceExtension Id="1166" />
+        <DeviceExtension Id="1167" />
+      </VirtualHosts>
+      <VirtualHosts Id="268" Name="Пантелеево" StationId="31101">
+        <DeviceExtension Id="1161" />
+        <DeviceExtension Id="1162" />
+        <DeviceExtension Id="1163" />
+      </VirtualHosts>
+      <VirtualHosts Id="269" Name="Приволжье" StationId="31060">
+        <DeviceExtension Id="1145" />
+        <DeviceExtension Id="1146" />
+        <DeviceExtension Id="1147" />
+      </VirtualHosts>
+      <VirtualHosts Id="270" Name="Путятино" StationId="31100">
+        <DeviceExtension Id="1158" />
+        <DeviceExtension Id="1159" />
+        <DeviceExtension Id="1160" />
+      </VirtualHosts>
+      <VirtualHosts Id="271" Name="Пучковский" StationId="31092">
+        <DeviceExtension Id="1154" />
+        <DeviceExtension Id="1155" />
+        <DeviceExtension Id="1156" />
+        <DeviceExtension Id="1157" />
+      </VirtualHosts>
+      <VirtualHosts Id="272" Name="Уткино" StationId="31080">
+        <DeviceExtension Id="1151" />
+        <DeviceExtension Id="1152" />
+        <DeviceExtension Id="1153" />
+      </VirtualHosts>
+      <VirtualHosts Id="273" Name="Филино" StationId="31070">
+        <DeviceExtension Id="1148" />
+        <DeviceExtension Id="1149" />
+        <DeviceExtension Id="1150" />
+      </VirtualHosts>
+      <VirtualHosts Id="274" Name="Которосль" StationId="31001">
+        <DeviceExtension Id="1133" />
+        <DeviceExtension Id="1134" />
+      </VirtualHosts>
+      <VirtualHosts Id="275" Name="Новоярославская" StationId="31490">
+        <DeviceExtension Id="1137" />
+        <DeviceExtension Id="1138" />
+      </VirtualHosts>
+      <VirtualHosts Id="276" Name="Ярославль-Главный" StationId="31000">
+        <DeviceExtension Id="1126" />
+        <DeviceExtension Id="1127" />
+        <DeviceExtension Id="1128" />
+        <DeviceExtension Id="1129" />
+        <DeviceExtension Id="1130" />
+      </VirtualHosts>
+      <VirtualHosts Id="277" Name="Ярославль Мос" StationId="31010">
+        <DeviceExtension Id="1135" />
+        <DeviceExtension Id="1136" />
+      </VirtualHosts>
+      <VirtualHosts Id="278" Name="8Парк" StationId="31000">
+        <DeviceExtension Id="1131" />
+        <DeviceExtension Id="1132" />
+      </VirtualHosts>
+    </Host>
+  </Hosts>
+  <ObjectNormalFlows>
+    <ObjectNormalFlow Id="434" Description="НЕ ТРОГАТЬ. ИСПОЛЬЗУЕТСЯ!!!">
+      <Parameters />
+    </ObjectNormalFlow>
+    <ObjectNormalFlow Id="419" Description="Сигнальная точка отсутсвие осн фидера">
+      <Parameters />
+    </ObjectNormalFlow>
+    <ObjectNormalFlow Id="420" Description="АСКТ перегорание нити красного огня">
+      <Parameters />
+    </ObjectNormalFlow>
+    <ObjectNormalFlow Id="399" Description="НЕ ТРОГАТЬ ИСПОЛЬЗУЕТСЯ НА САХАЛИНЕ!!! контроль напряжений по трем фазам (075, 076, 077)">
+      <Parameters />
+    </ObjectNormalFlow>
+    <ObjectNormalFlow Id="315" Description="Б,З,К">
+      <Parameters />
+    </ObjectNormalFlow>
+    <ObjectNormalFlow Id="433" Description="Ярославль">
+      <Parameters />
+    </ObjectNormalFlow>
+    <ObjectNormalFlow Id="400" Description="НЕ ТРОГАТЬ ИСПОЛЬЗУЕТСЯ НА САХАЛИНЕ !!!">
+      <Parameters />
+    </ObjectNormalFlow>
+  </ObjectNormalFlows>
+  <Relations />
+  <PrognosisAlgorithms>
+    <Algorithm Id="526" TemplateId="13" Name="(Метро) ЭПУ (!)" Description="Несоответствие состояний фидеров" />
+    <Algorithm Id="527" TemplateId="13" Name="(Метро) ЭПУ (Ф2-&gt;Ф1)" Description="Переключение на фидер 1" />
+    <Algorithm Id="535" TemplateId="23" Name="(Метро) УБП (Батарея !)" Description="Батарея неисправна" />
+    <Algorithm Id="536" TemplateId="23" Name="(Метро) УБП (Д!)" Description="Неопределено состояние" />
+    <Algorithm Id="1221" TemplateId="6" Name="РЦ движение в н/н 2м" Description="движение в н/н 2м" />
+    <Algorithm Id="1235" TemplateId="6" Name="РЦ движение в обратном направлении 1м" Description="движение в обратном направлении 1м" />
+    <Algorithm Id="1245" TemplateId="6" Name="РЦ потеря шунта НН" Description="потеря шунта нечетного поеда" />
+    <Algorithm Id="1246" TemplateId="6" Name="РЦ потеря шунта ЧН" Description="потеря шунта четного поеда" />
+    <Algorithm Id="1247" TemplateId="6" Name="РЦ разрыв поезда НН" Description="разрыв нечетного поезда или ложная занятость предыдущей р.ц." />
+    <Algorithm Id="1248" TemplateId="6" Name="РЦ разрыв поезда ЧН" Description="разрыв четного поезда или ложная занятость предыдущей р.ц." />
+    <Algorithm Id="1254" TemplateId="6" Name="РЦ потеря шунта короткой п.е нечетной" Description="потеря шунта короткой п.е нечетной" />
+    <Algorithm Id="1255" TemplateId="6" Name="РЦ потеря шунта короткой п.е четной" Description="потеря шунта короткой п.е четной" />
+    <Algorithm Id="1308" TemplateId="13" Name="(А) ПВВ (U&gt;)" Description="Напряжение на одном из фидеров выше нормы" />
+    <Algorithm Id="1309" TemplateId="13" Name="(А) ПВВ (Фаза!)" Description="Неправильное чередование фаз на одном из фидеров" />
+    <Algorithm Id="1326" TemplateId="13" Name="(Метро) ЭПУ (нет U)" Description="Отсутствует напряжение на фидере" />
+    <Algorithm Id="1566" TemplateId="13" Name="(А) ПВВ 1Ф вкл (выкл U2)" Description="Переключение  на Фидер 1 (Фидера 2- нет напряжения)" />
+    <Algorithm Id="1567" TemplateId="13" Name="(А) ПВВ 2Ф вкл (выкл U1)" Description="Переключение  на Фидер 2 (Фидера 1- нет напряжения)" />
+    <Algorithm Id="1568" TemplateId="13" Name="(А) ПВВ (Ф2-&gt;Ф1)" Description="Переключение  на Фидер 1 (по неизвестной причине)" />
+    <Algorithm Id="1570" TemplateId="13" Name="(А) ПВВ (Ф1-&gt;Ф2)" Description="Переключение  на Фидер 2 (по неизвестной причине)" />
+    <Algorithm Id="1571" TemplateId="13" Name="(А) ПВВ (нет U1)" Description="Отсутствует напряжение на фидере1" />
+    <Algorithm Id="1572" TemplateId="13" Name="(А) ПВВ (нет U2)" Description="Отсутствует напряжение на фидере2" />
+    <Algorithm Id="1573" TemplateId="13" Name="(А) ПВВ (нет U1,U2)" Description="Отсутствует напряжение на 2-х фидерах" />
+    <Algorithm Id="1777" TemplateId="34" Name="(РЖД) Полюс,В &gt; " Description="Высокое напряжение" />
+    <Algorithm Id="1778" TemplateId="34" Name="(РЖД) Полюс,В &lt;" Description="Низкое напряжение" />
+    <Algorithm Id="1861" TemplateId="0" Name="(РЖД) Uр&lt;Umin" Description="Низкое напряжение на реле" />
+    <Algorithm Id="1862" TemplateId="0" Name="(РЖД) Uр&gt;Umax" Description="Высокое напряжение на реле" />
+    <Algorithm Id="1863" TemplateId="0" Name="(РЖД) Uр&gt;Uост" Description="Высокое остаточное напряжение на реле" />
+    <Algorithm Id="1864" TemplateId="0" Name="(РЖД) ЛС (Uр &lt; Uост)" Description="ЛС (Uр &lt; Uост)" />
+    <Algorithm Id="1865" TemplateId="0" Name="(РЖД) ЛЗ (Uр &gt; Umin)" Description="ЛЗ (Uр &gt; Umin)" />
+    <Algorithm Id="1905" TemplateId="6" Name="(М) ЛЗ (мар) (010)" Description="ЛЗ (в маршруте)" />
+    <Algorithm Id="1907" TemplateId="35" Name="(М) ЛС (0 0 00)" Description="ЛС" />
+    <Algorithm Id="1908" TemplateId="35" Name="(М) ЛЗ (мар) (0 1 00)" Description="ЛЗ (в маршруте)" />
+    <Algorithm Id="1909" TemplateId="35" Name="(М) ЛЗ  (0 1 00)" Description="ЛЗ " />
+    <Algorithm Id="2059" TemplateId="6" Name="(РЖД) ЛЗ П (Ua)" Description="ЛЗ " />
+    <Algorithm Id="2060" TemplateId="6" Name="(РЖД) ЛС П (Ua)" Description="ЛС " />
+    <Algorithm Id="2093" TemplateId="0" Name="(РЖД) Неопределено " Description="Неопрелено состояние " />
+    <Algorithm Id="2141" TemplateId="13" Name="Неопределеноое состояние " Description="Неопределеноое состояние Набор ТС не соответсвует АНР" />
+    <Algorithm Id="2293" TemplateId="17" Name="1Ф&gt;2Ф при выкл 1Ф" Description="Переключение на 2 Фидер при выключении первого(переключение на 1 и 2 написаны по разному !!!!)" />
+    <Algorithm Id="2294" TemplateId="17" Name="2Ф&gt;1Ф при выкл 2Ф" Description="Переключение на 1 Фидер при выключении второго(переключение на 1 и 2 написаны по разному !!!!)" />
+    <Algorithm Id="2386" TemplateId="17" Name="Неопределеноое состояние" Description="Набор ТС не соответсвует АНР" />
+    <Algorithm Id="2527" TemplateId="42" Name="ЛС 000 общ1." Description="ЛС 000" />
+    <Algorithm Id="2528" TemplateId="42" Name="ЛС 101 общ1." Description="ЛС 101" />
+    <Algorithm Id="2531" TemplateId="42" Name="ЛЗ 010 общ1" Description="ЛЗ" />
+    <Algorithm Id="2546" TemplateId="42" Name="СинЗан 111 общ1 " Description="Синхронное занятие с соседней" />
+    <Algorithm Id="2547" TemplateId="42" Name="СинОсв 11* общ1." Description="Синхронное освождение" />
+    <Algorithm Id="2548" TemplateId="42" Name="СинЗан *11 общ1" Description="Синхронное занятие от соседней" />
+    <Algorithm Id="2604" TemplateId="42" Name="СинОсв 111 общ1." Description="Синхронное освождение" />
+    <Algorithm Id="2635" TemplateId="0" Name="ЛЗ_с" Description="Занятость без маршрута" />
+    <Algorithm Id="2696" TemplateId="17" Name="Не включен ни один фидер" Description="Не включен ни один фидер" />
+    <Algorithm Id="2712" TemplateId="6" Name="Опасное сближение (занята следующая р.ц)" Description="Опасное сближение" />
+    <Algorithm Id="2739" TemplateId="17" Name="Переключение на 2 Фидер " Description="Переключение на 2 Фидер " />
+    <Algorithm Id="2740" TemplateId="17" Name="Переключение на 1 фидер" Description="Переключение на 1 фидер" />
+  </PrognosisAlgorithms>
+  <PrognosisTemplates>
+    <Template Id="0" Name="Рельсовые цепи" Description="Рельсовые цепи">
+      <FirstParameter Id="0" Name="РЦ">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="2" Name="Св. и секция за ним" Description="Светофор и секция за ним">
+      <FirstParameter Id="3" Name="Св.">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="4" Name="РЦ" RelationId="2" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="5" Name="Стрелочная секция" Description="контроль стрелки по своим параметрам">
+      <FirstParameter Id="7" Name="Стрелочная секция">
+        <Types>
+          <Types ID="3" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="6" Name="+РЦ+РЦ1+РЦ2">
+      <FirstParameter Id="8" Name="Сама РЦ">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="9" Name="РЦ1" RelationId="4" />
+        <Parameter Id="10" Name="РЦ2" RelationId="5" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="7" Name="Индикаторы">
+      <FirstParameter Id="11" Name="Индикатор">
+        <Types>
+          <Types ID="10" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="12" Name="Фидер+ЭПУ1">
+      <FirstParameter Id="16" Name="Фидер">
+        <Types>
+          <Types ID="6" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="17" Name="ЭПУ1" RelationId="41" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="13" Name="ЭПУ+Фидера">
+      <FirstParameter Id="18" Name="ЭПУ">
+        <Types>
+          <Types ID="36" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="19" Name="Фидер1" RelationId="44" />
+        <Parameter Id="20" Name="Фидер2" RelationId="45" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="14" Name="Сброс">
+      <FirstParameter Id="21" Name="Стрелка">
+        <Types>
+          <Types ID="5" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="15" Name="Светофор">
+      <FirstParameter Id="22" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="17" Name="Фидер">
+      <FirstParameter Id="24" Name="Фидер">
+        <Types>
+          <Types ID="6" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="18" Name="РЦ1+Св+РЦ2" Description="Светофор и две РЦ рядышком">
+      <FirstParameter Id="25" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="26" Name="Секция за св." RelationId="2" />
+        <Parameter Id="27" Name="Секция перед поездн.св." RelationId="15" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="19" Name="РЦ+Светофор+РЦ">
+      <FirstParameter Id="28" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="29" Name="Секция за св." RelationId="2" />
+        <Parameter Id="30" Name="Секция перед св." RelationId="15" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="22" Name="Светофор про">
+      <FirstParameter Id="34" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="35" Name="Секция за св." RelationId="2" />
+        <Parameter Id="36" Name="Секция перед поездн.св." RelationId="15" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="23" Name="УПБ">
+      <FirstParameter Id="37" Name="Устройства энергоснабжения">
+        <Types>
+          <Types ID="36" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="24" Name="Стрелка">
+      <FirstParameter Id="38" Name="Стрелка">
+        <Types>
+          <Types ID="5" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="25" Name="+РЦ+РЦ1+РЦ2_1СП1">
+      <FirstParameter Id="39" Name="Сама РЦ">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="40" Name="Соседняя РЦ1" RelationId="4" />
+        <Parameter Id="41" Name="Соседняя РЦ2" RelationId="5" />
+        <Parameter Id="42" Name="Соседняя 1СП1" RelationId="6" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="26" Name="РЦ+РЦ1" Description="крайние РЦ участка">
+      <FirstParameter Id="43" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="44" Name="РЦ1" RelationId="4" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="27" Name="РЦ1 _/_ РЦ2 РЦ3" Description="Трельсовая цепь с тремя указателями РЦ (стрелка)">
+      <FirstParameter Id="45" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="46" Name="РЦ1" RelationId="4" />
+        <Parameter Id="47" Name="РЦ2" RelationId="5" />
+        <Parameter Id="48" Name="РЦ3" RelationId="63" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="28" Name="Фидера" Description="несколько">
+      <FirstParameter Id="49" Name="ЭССО">
+        <Types>
+          <Types ID="33" />
+          <Types ID="37" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="29" Name="Отмена маршрута">
+      <FirstParameter Id="50" Name="Отмена маршрута">
+        <Types>
+          <Types ID="21" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="30" Name="Стрелка + РЦ">
+      <FirstParameter Id="51" Name="Стрелка">
+        <Types>
+          <Types ID="5" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="52" Name="РЦ" RelationId="69" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="31" Name="РЦ + (РЦ1-РЦ8)">
+      <FirstParameter Id="53" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="54" Name="РЦ1" RelationId="4" />
+        <Parameter Id="55" Name="РЦ2" RelationId="5" />
+        <Parameter Id="56" Name="РЦ3" RelationId="63" />
+        <Parameter Id="57" Name="РЦ4" RelationId="64" />
+        <Parameter Id="58" Name="РЦ5" RelationId="65" />
+        <Parameter Id="59" Name="РЦ6" RelationId="66" />
+        <Parameter Id="60" Name="РЦ7" RelationId="67" />
+        <Parameter Id="61" Name="РЦ8" RelationId="68" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="32" Name="РЦ+РЦ2">
+      <FirstParameter Id="62" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="63" Name="02 РЦ" RelationId="5" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="33" Name="РЦ+РЦ4">
+      <FirstParameter Id="64" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="65" Name="04 РЦ" RelationId="64" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="34" Name="УЭП">
+      <FirstParameter Id="66" Name="Устройства энергоснабжения">
+        <Types>
+          <Types ID="36" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters />
+    </Template>
+    <Template Id="35" Name="РЦ+ РЦ1,2,4">
+      <FirstParameter Id="67" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="68" Name="01 РЦ" RelationId="4" />
+        <Parameter Id="69" Name="02 РЦ" RelationId="5" />
+        <Parameter Id="70" Name="04 РЦ" RelationId="64" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="36" Name="РЦ + 43ИндИР">
+      <FirstParameter Id="71" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="72" Name="43 Инд ИР" RelationId="106" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="37" Name="Стрелка +( РЦ1 РЦ2)">
+      <FirstParameter Id="73" Name="Стрелка">
+        <Types>
+          <Types ID="5" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="74" Name="РЦ1" RelationId="69" />
+        <Parameter Id="75" Name="РЦ2" RelationId="102" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="38" Name="Св + след. Св">
+      <FirstParameter Id="76" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="77" Name="41 След. Св." RelationId="107" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="39" Name="Св + РЦ после, 11Инд, 12Инд">
+      <FirstParameter Id="78" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="79" Name="01 РЦ после" RelationId="2" />
+        <Parameter Id="80" Name="11 Инд ОГ" RelationId="53" />
+        <Parameter Id="81" Name="12 Инд ОС" RelationId="54" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="40" Name="Светофор+ РЦ+отмена">
+      <FirstParameter Id="82" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="83" Name="11 Инд ОГ" RelationId="53" />
+        <Parameter Id="84" Name="01 РЦ после" RelationId="2" />
+        <Parameter Id="85" Name="02 РЦ до" RelationId="15" />
+        <Parameter Id="86" Name="12 Инд ОС" RelationId="54" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="41" Name="Фидер проба1">
+      <FirstParameter Id="87" Name="Фидер">
+        <Types>
+          <Types ID="6" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="88" Name="Другой фидер 1" RelationId="75" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="42" Name="РЦ общий1" Description="">
+      <FirstParameter Id="89" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="90" Name="01 РЦ" RelationId="4" />
+        <Parameter Id="91" Name="02 РЦ" RelationId="5" />
+        <Parameter Id="92" Name="03 РЦ" RelationId="63" />
+        <Parameter Id="93" Name="04 РЦ" RelationId="64" />
+        <Parameter Id="94" Name="06 РЦ" RelationId="66" />
+        <Parameter Id="95" Name="11 СП" RelationId="6" />
+        <Parameter Id="96" Name="12 СП" RelationId="7" />
+        <Parameter Id="97" Name="14 СП" RelationId="9" />
+        <Parameter Id="98" Name="211 Св" RelationId="80" />
+        <Parameter Id="99" Name="212 Св" RelationId="81" />
+        <Parameter Id="100" Name="221 Св" RelationId="82" />
+        <Parameter Id="101" Name="222 Св" RelationId="83" />
+        <Parameter Id="102" Name="223 Св" RelationId="94" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="43" Name="Светофор+ПР">
+      <FirstParameter Id="103" Name="Светофор">
+        <Types>
+          <Types ID="42" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="104" Name="01 РЦ после" RelationId="2" />
+        <Parameter Id="105" Name="02 РЦ до" RelationId="15" />
+        <Parameter Id="106" Name="04 РЦ после" RelationId="71" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="44" Name="1">
+      <FirstParameter Id="107" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+          <Types ID="3" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="108" Name="Ключ-жезл 1" RelationId="74" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="45" Name="2">
+      <FirstParameter Id="109" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+          <Types ID="3" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="110" Name="Ключ-жезл 2" RelationId="109" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="46" Name="3">
+      <FirstParameter Id="111" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="112" Name="44 Инд СН" RelationId="108" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="47" Name="4">
+      <FirstParameter Id="113" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+          <Types ID="3" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="114" Name="Ключ-жезл 1" RelationId="74" />
+        <Parameter Id="115" Name="Ключ-жезл 2" RelationId="109" />
+      </ExtraParameters>
+    </Template>
+    <Template Id="48" Name="5">
+      <FirstParameter Id="116" Name="Рельсовая цепь">
+        <Types>
+          <Types ID="2" />
+        </Types>
+      </FirstParameter>
+      <ExtraParameters>
+        <Parameter Id="117" Name="44 Инд СН" RelationId="108" />
+        <Parameter Id="118" Name="01 РЦ" RelationId="4" />
+      </ExtraParameters>
+    </Template>
+  </PrognosisTemplates>
+</Project>
